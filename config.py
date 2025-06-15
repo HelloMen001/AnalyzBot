@@ -1,8 +1,8 @@
 from FileWork import read_counter
 
 
-api_id = -
-api_hash = -
+api_id = 21583753
+api_hash = 'c391da402d8114270c86a4285ea0e1a8'
 
 
 # Чат

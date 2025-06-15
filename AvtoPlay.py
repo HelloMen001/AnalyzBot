@@ -47,4 +47,4 @@ def StartAvtoPlay(client, chat_id):
             AVTO = False
             await client.send_message(event.chat_id, 'Запуск цикла')
             await asyncio.sleep(1)
-            active_task = asyncio.create_task(betting_loop(event.chat_id))
+            active_task = asyncio.create_task(betting_loop(client,event.chat_id))

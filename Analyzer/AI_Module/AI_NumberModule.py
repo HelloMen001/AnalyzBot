@@ -6,7 +6,7 @@ from keras.layers import LSTM, Dense
 from LogWork import Ai_Log_N
 
 class AI_NumberModule:
-    def __init__(self,window_size,model_file='AI_NumberModel.keras'):
+    def __init__(self,window_size,model_file='AI/AI_NumberModel.keras'):
         
         self.raw_log =  Ai_Log_N(rand)
         self.window_size = window_size

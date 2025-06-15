@@ -8,7 +8,7 @@ from keras.models import load_model
 from LogWork import Ai_Log_N
 
 class MultiTargetAIModule:
-    def __init__(self, window_size, model_file="ai_model_multi.keras"):
+    def __init__(self, window_size, model_file="AI/ai_model_multi.keras"):
         
         self.raw_log = Ai_Log_N(rand)
         self.window_size = window_size

@@ -7,7 +7,7 @@ from keras.utils import to_categorical
 from LogWork import Ai_Log_N
 
 class AI_ParityModule:
-    def __init__(self,window_size,model_file='AI_ParityModel.keras'):
+    def __init__(self,window_size,model_file='AI/AI_ParityModel.keras'):
         
         self.raw_log =  Ai_Log_N(rand)
         self.window_size = window_size

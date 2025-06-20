@@ -74,7 +74,7 @@ class PredictionManager:
                         analyzer.analyze()
                         if hasattr(analyzer, 'save_patterns'): 
                             filename = f"patterns/{name}.json"
-                            os.makedirs("patterns", exist_ok=True)
+                            os.makedirs("Patterns", exist_ok=True)
                             analyzer.save_patterns(filename)
                     except Exception as e:
                         print(f"Ошибка анализа в {name}: {e}")
